@@ -39,6 +39,7 @@ La lógica utilizada clasifica el estado de salud en las siguientes categorías:
 ```bash
 docker build -t diagnostico-api .
 ````
+![image](https://github.com/user-attachments/assets/5fa99005-7e75-4c4b-a767-c7d521bc88dc)
 
 
 ### ▶️ Ejecutar el contenedor
@@ -50,10 +51,14 @@ docker run -p 5000:5000 diagnostico-api
 El backend estará disponible en `http://localhost:5000`.
 
 ---
+![image](https://github.com/user-attachments/assets/2c8a5b72-78b1-4623-afa6-68629252c35c)
+
 
 ## 🖥 Interfaz Web
 
 Abre el archivo `index.html` directamente en tu navegador.
+![image](https://github.com/user-attachments/assets/c21cd63e-10b7-4e52-a703-37f1e846d8a3)
+
 
 Formulario de entrada:
 
@@ -62,6 +67,8 @@ Formulario de entrada:
 * Saturación de oxígeno en porcentaje.
 
 Al hacer clic en **Enviar**, el formulario se comunica con el backend y muestra el diagnóstico.
+
+![image](https://github.com/user-attachments/assets/710b55ae-41d8-41d8-a29d-4369db5ab74d)
 
 ---
 
